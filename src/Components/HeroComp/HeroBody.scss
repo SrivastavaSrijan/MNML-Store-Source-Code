@@ -1,0 +1,17 @@
+.video-container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  flex-shrink: 0;
+}
+.is-blurry {
+  overflow: hidden;
+  margin: 0 16vmax;
+  backdrop-filter: blur(0.1em) brightness(0.8) opacity(0.7) contrast(1.4);
+  @media screen and (max-width: 1023px) {
+    margin: 0;
+  }
+}

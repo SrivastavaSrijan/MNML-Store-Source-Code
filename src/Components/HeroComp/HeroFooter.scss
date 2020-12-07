@@ -1,0 +1,6 @@
+.is-active {
+  background: transparentize($color: #1de9b5, $amount: 0.6);
+}
+.is-flex-end {
+  justify-content: flex-end !important;
+}

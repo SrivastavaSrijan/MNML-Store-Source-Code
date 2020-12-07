@@ -1,0 +1,113 @@
+.navbar-brand {
+  border: 1px solid #fff;
+  background-color: transparentize($color: #fff, $amount: 0.7);
+}
+.is-active {
+  a {
+    color: #000;
+  }
+}
+@media screen {
+  .navbar-menu {
+    background-color: transparentize(#fff, 0.6) !important;
+  }
+}
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  right: 40px;
+  top: 0.5rem;
+  min-height: 2.5rem;
+  min-width: 2.5rem;
+  @media screen and (max-width: 1023px) {
+    top: 0.8rem;
+  }
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  min-height: 2.5rem;
+  min-width: 2.5rem;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  width: 15vw !important;
+  @media screen and (max-width: 1023px) {
+    width: 35vmax !important;
+  }
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1em 0 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-hero {
+  fill: #373a47;
+}
+.bm-morph-else {
+  fill: #e4f4f1;
+}
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+.bm-background {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* flex-shrink: 0; */
+  max-height: 3.5rem;
+  max-width: 3.5rem;
+}
+.low-h {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  max-height: 3rem;
+  max-width: 3.5rem;
+}
+.navbar-brand-modified {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* flex-shrink: 0; */
+  min-height: 3.5rem;
+  min-width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
