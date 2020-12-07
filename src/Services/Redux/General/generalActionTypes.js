@@ -1,0 +1,6 @@
+export const generalActionTypes = {
+  SET_LOADING: 'SET_LOADING',
+  TOGGLE_HIDDEN: 'TOGGLE_HIDDEN',
+  SHOW_DETAILS: 'SHOW_DETAILS',
+  SET_FETCHING: 'SET_FETCHING',
+};
