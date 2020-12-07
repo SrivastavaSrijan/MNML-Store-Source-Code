@@ -1,0 +1,45 @@
+.headroom {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 35;
+}
+.headroom--unfixed {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(0);
+}
+.headroom--scrolled {
+  transition: transform 200ms ease-in-out;
+}
+.headroom--unpinned {
+  position: fixed;
+  transform: translateY(100%);
+}
+.headroom--pinned {
+  position: fixed;
+  transform: translateY(0%);
+}
+.headroom-wrapper {
+  height: 0 !important;
+}
+
+.switch-wrapper {
+  position: relative;
+}
+
+.switch-wrapper > div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.switch-wrapper-1 > div {
+  position: absolute;
+  top: 20%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
