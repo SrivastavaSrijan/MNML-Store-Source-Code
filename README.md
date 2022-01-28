@@ -12,6 +12,12 @@ Check it out here - [MNML Store](https://mnml.srijansrivastava.tech/)
 - Tested the app using Jest, carried out performance optimization using Lighthouse, and used React Hooks, Context and Effects as well as ES6 syntax while writing code.
 - Used an Express backend to process payments through Stripe.
 
+## ⏲️ About the Application
+- This is a FERN stack e-commerce store
+- Beautiful and reactive animations make it come to live
+- Designed 100% by me, perfected by responsive CSS
+- Sign Up using Google Authentication and save your cart without any issuesP
+
 ### 🐎 Starting the Project
 
 Install the dependencies with `npm i` or `yarn`  
