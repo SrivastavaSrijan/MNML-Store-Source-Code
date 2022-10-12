@@ -3,7 +3,7 @@
 A minimal, full scale e-commerce platform complete with responsive design, best-in-class state retention, UI/UX principles and yes, it can scale! 
 
 ## 👁️ Preview
-Check it out here - [MNML Store](https://mnml.srijansrivastava.tech/)
+Check it out here - [MNML Store](https://mnml.srijansrivastava.com/)
 
 ## 🔑 Key Points
 - Curated an e-commerce store using latest React-Redux design patterns.
